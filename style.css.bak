@@ -1,0 +1,164 @@
+body {
+	background-color: #C08A4A;
+	color: #FFFFFF;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#menu {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	padding: 0px;
+	font-size: 16pt;
+	font-variant: small-caps;
+	border-radius: 20px;
+	width: 800px;
+	color: goldenrod;
+	/* font-family: serif;*/
+}
+
+#menu table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu ul {
+	list-style-type: none;
+	padding-top: 0px;
+}
+#menu ul li {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#minimenu table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#minimenu {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12pt;
+	font-variant: small-caps;
+	border-radius: 20px;
+	width: 395px;
+}
+#footer {
+	font-size: normal;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+#content {
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 20px;
+}
+
+
+
+
+h2 {
+	color: goldenrod;
+	/*font-family: serif;*/
+	text-shadow: -1px 0 red, -1px -1px red, 0 -1px darkorange;
+}
+
+
+h1 {
+	/*font-family: serif;*/
+}
+
+h3 {
+	color: gray;
+	text-shadow: -3px 0 #2b1b17, -3px -3px #2b1b17, 0 -3px #2b1b17;
+}
+
+h1,h2,h3 {
+}
+
+li {
+	margin-top: 1.1em;
+}
+
+th {
+	color: lightgrey;
+}
+code {
+	color: peru;
+}
+
+a:hover {
+	background: #222;
+	color: goldenrod;
+	text-shadow: -.5px 0 red, -.5px -.5px red, 0 -.5px darkorange;
+}
+
+a:active {
+	color: red;
+}
+
+p	{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+dd {
+	padding: 10px;
+}
+
+.image img {
+	width: 175px !important;
+}
+
+.image {
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-table;
+	padding: 0px;
+}
+
+img.centered {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+caption {
+	padding: 0px;
+}
+
+ul.min li {
+	margin: 0;
+	padding: 0;
+}
+
+ul.min li.fav {
+	font-size: x-large;
+	color: red;
+}
+
+ul.min li.read {
+	font-size: large;
+	color: orange;
+}
+ul.min li.part {
+	color: yellow;
+}
